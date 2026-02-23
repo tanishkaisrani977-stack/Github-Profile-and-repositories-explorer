@@ -81,4 +81,4 @@ B.Tech CSE (AI & ML)
 JSS Academy of Technical Education  
 
 ---
-Deployment link-
+Deployment link-https://tanishkaisrani977-stack.github.io/Github-Profile-and-repositories-explorer/
