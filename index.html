@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github-Profile-explorer</title>
+    <link rel="Stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <div class="head">
+          <h1><img src="image/b6ca2f45-fda6-47bd-a7a9-831555941a4e.tmp" class="logo">GitHub Profile Explorer</h1>
+          <p>Search any GitHub user and explore their repositories</p>
+    </div>
+
+
+    <div class="search-box">
+      <input
+        type="text"
+        id="usernameInput"
+        placeholder="Enter GitHub username"
+      >
+      <button id="searchBtn">Search</button>
+    </div>
+
+    <!-- Loading & Error -->
+    <p id="loading" class="hidden">Loading...</p>
+    <p id="error"></p>
+
+    <!-- Profile Section -->
+    <div id="profile" class="profile-card"></div> <!--Creating empty profile section div to add javascript later-->
+
+    <!-- Repositories Section -->
+    <div id="repos" class="repo-list"></div> <!--Creating empty repositories section div to add javascript later-->
+
+
+  </div>
+
+  <script src="script.js"></script> <!--Linking javascript-->
+
+
+
+
+</body>
+</html>   
